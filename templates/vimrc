@@ -1,0 +1,13 @@
+se nobk
+se noswf
+se mouse=a
+se nu
+se et
+se ts=2
+se sw=2
+se ru
+se hls
+se ls=2
+filetype plugin indent on
+syntax on
+color desert
