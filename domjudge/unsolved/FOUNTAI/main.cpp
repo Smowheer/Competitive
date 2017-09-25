@@ -71,7 +71,7 @@ int main() {
 
   double manhattan = (abs(x1 - x2) + abs(y1 - y2)) * 100;
   manhattan -= lis * (20.0 - 5.0 * PI);
-  if (lis > abs(y1 - y2)) {
+  if (lis > abs(y1 - y2)) { // TODO: dis is wrong
     manhattan += 20.0 - 5.0*PI;
     manhattan += 10.0*PI - 20.0;
   }
