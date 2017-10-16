@@ -12,5 +12,5 @@ double eps = 1e-9;
 
 
 int main() {
-
+  
 }
