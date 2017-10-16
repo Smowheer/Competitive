@@ -1,0 +1,1 @@
+export CXXFLAGS='-O0 -Wall -Wextra -Wshadow -std=gnu++0x -g -DGLIBCXX_DEBUG -D_GLIBCXX_EXTERN_TEMPLATE=0 -fsanitize=address,undefined'
