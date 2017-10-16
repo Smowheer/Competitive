@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -10,7 +11,14 @@ typedef pair<ll, ll> pll;
 #define INF 0x3f3f3f3f3f3f3f3f
 double eps = 1e-9;
 
-
+ll N;
 int main() {
+  cin >> N;
+  while (N-->0) {
+    ll l,k; // l links
+    cin >> l >> k;
+    FOR(i,0,l) {
 
+    }
+  }
 }
