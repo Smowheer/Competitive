@@ -1,3 +1,4 @@
+
 // Makefile: CXXFLAGS += -std=c++11 -fsanitize=address,undefined -Wall -Werror -Wshadow -O0 -g
 #include <bits/stdc++.h>
 using namespace std;
@@ -20,7 +21,10 @@ const double eps = 1e-9;
 #define FOR(i,a,b) for(ll i=(a); i<(b); ++i)
 #define TR(X) ({ if(1) cerr << "TR: " << (#X) << " = " << (X) << endl;})
 
+ll N,b;
+
 int main() {
   ios::sync_with_stdio(false);
-  
+  cin >> N >> b;
+  cout << ((N <= (1LL<<(b+1LL))-1LL) ? "yes" : "no") << endl;
 }

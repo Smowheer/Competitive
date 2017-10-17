@@ -1,5 +1,0 @@
-set nu
-set sw=2
-set ts=2
-filetype plugin indent on
-syntax on
