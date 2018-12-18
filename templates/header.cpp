@@ -1,4 +1,4 @@
-// Makefile: CXXFLAGS += -std=c++11 -fsanitize=address,undefined -Wall -Werror -Wshadow -O0 -g
+// Makefile: CXXFLAGS += -std=c++11 -fsanitize=address,undefined -Wall -Wshadow -O0 -g
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
