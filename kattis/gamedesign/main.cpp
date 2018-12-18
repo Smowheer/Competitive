@@ -8,7 +8,6 @@ using v3l = vector<vvl>;
 using pll = pair<ll,ll>;
 using p3l = pair<pll,ll>;
 using vb = vector<bool>;
-using vd = vector<double>;
 const ll oo = 0x3f3f3f3f3f3f3f3fLL;
 const double eps = 1e-9;
 #define sz(c) ll((c).size())
